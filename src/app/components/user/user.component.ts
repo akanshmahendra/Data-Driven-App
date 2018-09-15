@@ -21,12 +21,7 @@ export class UserComponent implements OnInit
     this.user = {
       firstName : 'Akansh',
       lastName : 'Mahendra',
-      age : 26,
-      address : {
-        street : 'D-1004, Ittina Akkala Whitefield Road',
-        city : 'Bangalore',
-        state : 'Karnataka'
-      }
+      email : 'akanshmahendra@gmail.com'
     };
   }
 }
