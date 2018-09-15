@@ -13,6 +13,7 @@ export class UsersComponent implements OnInit {
   showExtended : boolean = true;
   loaded : boolean = false;
   enableAdd : boolean = true;
+  showUserForm : boolean = false;
 
   constructor() { }
 
